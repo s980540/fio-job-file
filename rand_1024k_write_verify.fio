@@ -1,0 +1,12 @@
+[Random 1024K Write and Verify]
+filename=/dev/nvme0n1
+rw=randwrite
+bs=1024k
+ioengine=libaio
+iodepth=16
+direct=1
+randrepeat=0
+do_verify=1
+verify=md5
+verify_dump=1
+loops=2

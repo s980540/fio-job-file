@@ -1,0 +1,7 @@
+[Sequential Read]
+filename=/dev/nvme0n1
+rw=read
+bs=64m
+ioengine=libaio
+iodepth=1
+direct=1

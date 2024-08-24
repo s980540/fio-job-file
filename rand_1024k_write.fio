@@ -1,0 +1,10 @@
+[Random 1024K Write]
+filename=/dev/nvme0n1
+rw=randwrite
+bs=1024k
+blockalign=4k
+ioengine=libaio
+iodepth=16
+direct=1
+randrepeat=0
+loops=2
